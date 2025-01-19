@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 import { modularAccountClient } from "./client";
-import { counterPluginActions } from "../plugin-gens/counter-config/counter/plugin";
+import { counterPluginActions } from "./plugin-gens/counter-config/counter/plugin";
 
 /**
  * @description Extends the client with the savings plugin
